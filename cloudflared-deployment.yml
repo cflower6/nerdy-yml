@@ -28,7 +28,7 @@ spec:
             - run
           args:
             - --token
-            - <token value>
+            - eyJhIjoiOTQ0MWQ3ZjU0MTVjYmJhYTQ2NmMxZjY0YmZiNTg3NzIiLCJ0IjoiZmQzNDE1M2QtYzc5Mi00NGNjLThlOGItZWY3NDkzMTVjY2NiIiwicyI6IlpEVXlaR0V4TWpVdE9EWmpaaTAwWlROa0xXRXpOemt0WkdVME5XVmlaV1F6T0RNNSJ9
           image: cloudflare/cloudflared:latest
           name: cloudflared
           livenessProbe:
